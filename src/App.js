@@ -8,7 +8,7 @@ import DataTable from './components/dataTable/DataTable';
 
 /*
 *  This component is the entry point for the dashboard application. The dashboard renders the data
-    for the Public APIs and is capable of performing the following functionlities.
+    for the Public APIs and is capable of performing the following functionalities.
     1. Searching
     2. Sorting
     3. Pagination

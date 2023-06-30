@@ -1,5 +1,8 @@
 import './DataTable.css';
 
+/*
+This component renders the table for the Public APIs
+*/
 const DataTable = ({ currentEntries, handleSort, sortColumn }) => (
   <table>
     <thead>
@@ -49,7 +52,7 @@ const DataTable = ({ currentEntries, handleSort, sortColumn }) => (
           <td>{entry.Auth}</td>
           <td>{entry.HTTPS.toString()}</td>
           <td>{entry.Cors}</td>
-          <td>{entry.Link}</td>
+          <td> <a href={entry.Link}>{entry.Link}</a></td>
           <td>{entry.Category}</td>
         </tr>
       ))}

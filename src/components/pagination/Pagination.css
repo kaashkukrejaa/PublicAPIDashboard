@@ -1,6 +1,7 @@
 .pagination {
   display: flex;
   list-style: none;
+  padding-inline-start: 0px;
 }
 
 .pagination li {
