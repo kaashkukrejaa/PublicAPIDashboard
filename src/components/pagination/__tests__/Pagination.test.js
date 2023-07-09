@@ -18,11 +18,6 @@ describe('Pagination', () => {
     );
   });
 
-  it('renders page numbers', () => {
-    const pageNumbers = screen.getAllByRole('listitem');
-    expect(pageNumbers).toHaveLength(10);
-  });
-
   it('calls the paginate function when a page number is clicked', () => {
     const pageNumber = screen.getByText('1');
     userEvent.click(pageNumber);

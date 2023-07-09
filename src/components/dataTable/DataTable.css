@@ -8,6 +8,7 @@ th,td {
   text-align: left;
   padding: 8px;
   border: 1px solid #ddd;
+  width: calc(100% / 7);
 }
 
 th:nth-child(1),
@@ -41,10 +42,6 @@ th {
 
 .sorted {
   background-color: #ffa500;
-}
-
-th,td {
-  width: calc(100% / 7);
 }
 
 td:nth-child(6) {
