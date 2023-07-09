@@ -8,15 +8,15 @@ This is a dashboard application built with React that displays data from the Pub
 
 ## Technologies Used
 
-React
-Axios
-JavaScript
+- React
+- Axios
+- JavaScript
 
 ## Installation
 
-Clone the repository.
-Run npm install to install the dependencies.
-Run npm start to start the development server.
+1. Clone the repository.
+2. Run npm install to install the dependencies.
+3. Run npm start to start the development server.
 
 ## Usage
 
