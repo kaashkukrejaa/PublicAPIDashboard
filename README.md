@@ -2,9 +2,9 @@
 
 This is a dashboard application built with React that displays data from the Public APIs. The dashboard is capable of performing the following functionalities:
 
-Searching
-Sorting
-Pagination
+1. Searching
+2. Sorting
+3. Pagination
 
 ## Technologies Used
 
